@@ -64,6 +64,10 @@
 .col-12 {
 	width: 100%;
 }
+
+.col-12 {
+	width: 100%;
+}
  
  /* viewport <= 1000px */
  @media screen and (max-width: 1000px) {
@@ -78,10 +82,11 @@
 	  padding: 1.5%;  
 	}    
  } 
- 
- /* viewport <= 500px */
- @media screen and (max-width: 500px) {
-	* {
-	  font-size: 0.9em;
+
+ @media screen and (max-width: 426px){
+	.col-small-12 {
+		width: 100%;
 	}
  }
+ 
+ /* viewport <= 500px */
